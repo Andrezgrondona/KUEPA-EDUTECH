@@ -1,0 +1,29 @@
+/* Estilos personalizados para el chat */
+.chat-messages {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.message {
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+}
+
+.my-message {
+  background-color: #e1ffc7; /* verde claro */
+  text-align: right;
+}
+
+.other-message {
+  background-color: #ffd8b1; /* naranja claro */
+  text-align: left;
+}
+
+.moderator-message {
+  background-color: #b1d4ff; /* azul claro */
+  text-align: left;
+}
